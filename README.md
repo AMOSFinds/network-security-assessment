@@ -10,22 +10,22 @@ Professional network security assessment demonstrating vulnerability discovery, 
 
  Project Overview
 
-Professional network security assessment conducted on a home network infrastructure, identifying **4 critical vulnerabilities** including a confirmed CVE (CVE-2007-6750) and default credential usage.
+Professional network security assessment conducted on a home network infrastructure, identifying 4 critical vulnerabilities including a confirmed CVE (CVE-2007-6750) and default credential usage.
 
  Key Achievements
 
-- ✅ **4 Critical Security Findings** identified and documented
-- ✅ **1 Confirmed CVE** (CVE-2007-6750) - Slowloris DoS vulnerability
-- ✅ **Default Credentials** discovered and validated
-- ✅ **Professional Security Report** with risk ratings and remediation
-- ✅ **Complete Methodology** documented with reproducible steps
+-  4 Critical Security Findings** identified and documented
+-  1 Confirmed CVE** (CVE-2007-6750) - Slowloris DoS vulnerability
+-  Default Credentials** discovered and validated
+-  Professional Security Report** with risk ratings and remediation
+-  Complete Methodology** documented with reproducible steps
 
-## 🛠️ Tools & Technologies
+ Tools & Technologies
 
-- **Nmap 7.97** - Network discovery and vulnerability scanning
-- **Manual Testing** - Credential validation and service analysis
-- **Risk Assessment** - CVSS scoring and impact analysis
-- **Professional Reporting** - Structured security documentation
+- Nmap 7.97** - Network discovery and vulnerability scanning
+- Manual Testing** - Credential validation and service analysis
+- Risk Assessment** - CVSS scoring and impact analysis
+- Professional Reporting** - Structured security documentation
 
  Methodology
 
@@ -38,21 +38,21 @@ Professional network security assessment conducted on a home network infrastruct
   Critical Findings
 
  1. Default Administrative Credentials (CVSS: 9.8)
-- **Impact:** Complete network compromise
-- **Evidence:** Successful authentication with admin/admin
-- **Recommendation:** Immediate password change required
+- Impact:** Complete network compromise
+- Evidence:** Successful authentication with admin/admin
+- Recommendation:** Immediate password change required
 
  2. Unencrypted Administrative Access - Telnet (CVSS: 9.1)
-- **Impact:** Credential interception via network monitoring
-- **Evidence:** Port 23 exposed with admin interface
-- **Recommendation:** Disable Telnet, use SSH with key authentication
+- Impact:** Credential interception via network monitoring
+- Evidence:** Port 23 exposed with admin interface
+- Recommendation:** Disable Telnet, use SSH with key authentication
 
  3. Unnecessary Administrative Services (CVSS: 7.8)
-- **Impact:** Increased attack surface
-- **Evidence:** FTP (21) and SSH (22) services exposed
-- **Recommendation:** Disable unused services
+- Impact:** Increased attack surface
+- Evidence:** FTP (21) and SSH (22) services exposed
+- Recommendation:** Disable unused services
 
  4. Denial of Service Vulnerability - CVE-2007-6750 (CVSS: 7.5)
-- **Impact:** Network service disruption
-- **Evidence:** Slowloris vulnerability confirmed
-- **Recommendation:** Firmware update and rate limiting
+- Impact:** Network service disruption
+- Evidence:** Slowloris vulnerability confirmed
+- Recommendation:** Firmware update and rate limiting
