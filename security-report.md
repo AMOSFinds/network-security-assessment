@@ -1,7 +1,7 @@
 # Network Security Assessment Report
 
 **Assessment Date:** July 8, 2025  
-**Assessor:** Amogetswe Mashele  
+**Assessor:** Amos Mashele  
 **Scope:** Home Network Infrastructure Security Assessment  
 **Network Range:** 10.0.0.0/24  
 
